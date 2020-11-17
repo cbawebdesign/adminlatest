@@ -1,0 +1,32 @@
+<nb-card class="col-md-12 col-lg-12 col-xxxl-12">
+  <nb-card-body>
+    <nb-stepper orientation="horizontal">
+      <nb-step>
+        <ng-template #labelOne>First step</ng-template>
+        <img src="assets/images/test1.jpg">
+        <button nbButton disabled nbStepperNext>prev</button>
+        <button nbButton nbStepperNext>next</button>
+      </nb-step>
+      <nb-step >
+        <ng-template #labelTwo>Second step</ng-template>
+        <img src="assets/images/test1.jpg">
+        <button nbButton nbStepperPrevious>prev</button>
+        <button nbButton nbStepperNext>next</button>
+      </nb-step>
+      <nb-step >
+        <img src="assets/images/test2.jpg">
+        <button nbButton nbStepperPrevious>prev</button>
+        <button nbButton nbStepperNext>next</button>
+      </nb-step>
+      <nb-step >
+        <ng-template #labelFour>Fourth step</ng-template>
+        <img src="assets/images/test3.jpg">
+        <button nbButton nbStepperPrevious>prev</button>
+        <button nbButton disabled nbStepperNext>next</button>
+      </nb-step>
+    </nb-stepper>
+  </nb-card-body>
+</nb-card>
+
+
+
